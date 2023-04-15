@@ -64,34 +64,34 @@ Following this, there will be H lines with W columns, with each cell having a va
 - COLOR has a value of 1 (WHITE) or 0 (BLACK);
 - ANT has a value of 0 (ant facing LEFT), 1 (ant facing UP), 2 (ant facing RIGHT), 3 (ant facing DOWN), or may not exist.
 
-Example input file (1)                                              Example output file (1)
+Example input file (1) &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   Example output file (1)
 
-5 5 1                                                               5 5
+5 5 1 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   5 5
 
-1 1 1 1 1                                                           1 1 1 1 1
+1 1 1 1 1 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   1 1 1 1 1
 
-1 1 12 1 1                                                          1 1 01 1 1
+1 1 12 1 1 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   1 1 01 1 1
 
-1 11 10 13 1                                                        1 0 02031 0 1
+1 11 10 13 1 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   1 0 02031 0 1
 
-1 1 10 1 1                                                          1 1 0 1 1
+1 1 10 1 1 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   1 1 0 1 1
 
-1 1 1 1 1                                                           1 1 1 1 1
+1 1 1 1 1 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   1 1 1 1 1
 
 
-Example input file (2)                                              Example output file (2)
+Example input file (2) &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   Example output file (2)
 
-5 5 17                                                              5 5
+5 5 17 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   5 5
 
-1 1 1 1 1                                                           1 0 0 0 0
+1 1 1 1 1 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   1 0 0 0 0
 
-1 1 12 1 1                                                          1 0 0 0 0
+1 1 12 1 1 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   1 0 0 0 0
 
-1 11 10 13 1                                                        0 0 0 0 1
+1 11 10 13 1 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   0 0 0 0 1
 
-1 1 10 1 1                                                          1 0 1 0 0
+1 1 10 1 1 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   1 0 1 0 0
 
-1 1 1 1 1                                                           0 1 00 0 0
+1 1 1 1 1 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   0 1 00 0 0
 
 Running the program
 
