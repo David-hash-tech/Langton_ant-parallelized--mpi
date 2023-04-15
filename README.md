@@ -29,23 +29,23 @@ Example simulation on a map of size 11 x 11:
 
 ![](Img/Aspose.Words.c228c6cd-f4b1-4828-bfd5-832dc8c94403.002.png) ![](Img/Aspose.Words.c228c6cd-f4b1-4828-bfd5-832dc8c94403.003.png) ![](Img/Aspose.Words.c228c6cd-f4b1-4828-bfd5-832dc8c94403.004.png)
 
-(a) Initial map (b) After step 1 (c) After step 2
+(a) Initial map  (b) After step 1   (c) After step 2
 
 ![](Img/Aspose.Words.c228c6cd-f4b1-4828-bfd5-832dc8c94403.005.png) ![](Img/Aspose.Words.c228c6cd-f4b1-4828-bfd5-832dc8c94403.006.png) ![](Img/Aspose.Words.c228c6cd-f4b1-4828-bfd5-832dc8c94403.007.png)
 
-(d) After step 3 (e) After step 4 (f) After step 5
+(d) After step 3  (e) After step 4   (f) After step 5
 
 ![](Img/Aspose.Words.c228c6cd-f4b1-4828-bfd5-832dc8c94403.008.png) ![](Img/Aspose.Words.c228c6cd-f4b1-4828-bfd5-832dc8c94403.009.png) ![](Img/Aspose.Words.c228c6cd-f4b1-4828-bfd5-832dc8c94403.010.png)
 
-(g) After step 6 (h) After step 7 (i) After step 8
+(g) After step 6  (h) After step 7   (i) After step 8
 
 ![](Img/Aspose.Words.c228c6cd-f4b1-4828-bfd5-832dc8c94403.011.png) ![](Img/Aspose.Words.c228c6cd-f4b1-4828-bfd5-832dc8c94403.012.png) ![](Img/Aspose.Words.c228c6cd-f4b1-4828-bfd5-832dc8c94403.013.png)
 
-(j) After step 9 (k) After step 10 (l) After step 11
+(j) After step 9  (k) After step 10   (l) After step 11
 
 ![](Img/Aspose.Words.c228c6cd-f4b1-4828-bfd5-832dc8c94403.014.png) ![](Img/Aspose.Words.c228c6cd-f4b1-4828-bfd5-832dc8c94403.015.png) ![](Img/Aspose.Words.c228c6cd-f4b1-4828-bfd5-832dc8c94403.016.png)
 
-(m) After step 12 (n) After step 13 (o) After step 14![](Img/Aspose.Words.c228c6cd-f4b1-4828-bfd5-832dc8c94403.017.png)
+(m) After step 12  (n) After step 13   (o) After step 14
 
 The Simulation Process
 
@@ -64,39 +64,40 @@ Following this, there will be H lines with W columns, with each cell having a va
 - COLOR has a value of 1 (WHITE) or 0 (BLACK);
 - ANT has a value of 0 (ant facing LEFT), 1 (ant facing UP), 2 (ant facing RIGHT), 3 (ant facing DOWN), or may not exist.
 
-Example input file (1) Example output file (1)
+Example input file (1)                                              Example output file (1)
 
-5 5 1 5 5
+5 5 1                                                               5 5
 
-1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1                                                           1 1 1 1 1
 
-1 1 12 1 1 1 1 01 1 1
+1 1 12 1 1                                                          1 1 01 1 1
 
-1 11 10 13 1 1 0 02031 0 1
+1 11 10 13 1                                                        1 0 02031 0 1
 
-1 1 10 1 1 1 1 0 1 1
+1 1 10 1 1                                                          1 1 0 1 1
 
-1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1                                                           1 1 1 1 1
 
-Example input file (2) Example output file (2)
 
-5 5 17 5 5
+Example input file (2)                                              Example output file (2)
 
-1 1 1 1 1 1 0 0 0 0
+5 5 17                                                              5 5
 
-1 1 12 1 1 1 0 0 0 0
+1 1 1 1 1                                                           1 0 0 0 0
 
-1 11 10 13 1 0 0 0 0 1
+1 1 12 1 1                                                          1 0 0 0 0
 
-1 1 10 1 1 1 0 1 0 0
+1 11 10 13 1                                                        0 0 0 0 1
 
-1 1 1 1 1 0 1 00 0 0![](Img/Aspose.Words.c228c6cd-f4b1-4828-bfd5-832dc8c94403.017.png)
+1 1 10 1 1                                                          1 0 1 0 0
+
+1 1 1 1 1                                                           0 1 00 0 0
 
 Running the program
 
 The program can be run as follows:
 
-1 mpirun --oversubscribe -np NUM_PROCS ./file.c IN_FILENAME OUT_FILENAME![](Img/Aspose.Words.c228c6cd-f4b1-4828-bfd5-832dc8c94403.018.png)
+1 mpirun --oversubscribe -np NUM_PROCS ./file.c IN_FILENAME OUT_FILENAME
 
 Where:
 
@@ -107,4 +108,4 @@ Where:
 
 Example:
 
-1 mpirun --oversubscribe -np 2 ./homework in.txt out.txt![](Img/Aspose.Words.c228c6cd-f4b1-4828-bfd5-832dc8c94403.019.png)
+1 mpirun --oversubscribe -np 2 ./homework in.txt out.txt
