@@ -3,8 +3,8 @@
 #include <string.h>
 #include <mpi.h>
 
-#define ALB 1
-#define NEGRU 0
+#define WHITE 1
+#define BLACK 0
 
 #define LEFT 0
 #define UP 1
@@ -68,11 +68,11 @@ int getDataFromElement(int *data, int element)
 
 int calculateDirectionOfAnt(int color, int actualDirection)
 {
-    if (color == ALB)
+    if (color == WHITE)
     {
         return (actualDirection + 1) % 4;
     }
-    else if (color == NEGRU)
+    else if (color == BLACK)
     {
         return (actualDirection + 3) % 4;
     }
